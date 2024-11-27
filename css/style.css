@@ -65,3 +65,9 @@ a{
     padding: 10px 10px;
     color:white;
 }
+/* contenuto principale  */
+#jumbotron{
+    display: flex;
+    background-color: #b4d0e6;
+    height:500px;
+}
