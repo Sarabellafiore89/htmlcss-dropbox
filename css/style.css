@@ -4,11 +4,46 @@
     box-sizing: border-box;
 }
 
-header{
-    background-color: aquamarine;
+header {
+    background-color: white;
     top: 0;
     left: 0;
     width: 100%;
     position: fixed;
     z-index: 1000;
+    height:80px;
+}
+
+/* contentuti header */
+.container-header{
+    display: flex;
+    width:100%;
+    align-items:center;
+    
+}
+
+.left-side{
+    
+    
+}
+.logo-small{
+    
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin:10px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+    
+.right-side{
+    flex-basis: 50%;
 }
