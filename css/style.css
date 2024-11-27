@@ -14,7 +14,7 @@ header {
     height:80px;
 }
 
-/* contentuti header */
+/* contentuti header sx */
 .container-header{
     display: flex;
     width:100%;
@@ -23,12 +23,13 @@ header {
 }
 
 .left-side{
-    
-    
+    display: flex;
+    padding: 10px;
 }
+
 .logo-small{
-    
-}
+    width: 80px;;
+}   
 
 ul{
     display: flex;
@@ -36,14 +37,31 @@ ul{
 
 li{
     list-style: none;
-    margin:10px;
+    font-size:15px;
+    padding:0 10px;
 }
 
 a{
     text-decoration: none;
     color:black;
+    
+}
+/* contenuti header dx */
+
+.right-side{
+    display: flex;
+    padding: 10px 15px;
+    flex-basis: 45%;
+}
+
+.nav-right{
+    display: flex;
+
 }
     
-.right-side{
-    flex-basis: 50%;
+.blue-button{
+    background-color:#0061fe ;
+    font-size: 10px;
+    padding: 10px 10px;
+    color:white;
 }
