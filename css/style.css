@@ -68,6 +68,46 @@ a{
 /* contenuto principale  */
 #jumbotron{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #b4d0e6;
-    height:500px;
+    padding:80px;
+    
+}
+
+.hero{
+    flex-basis: 80%;
+      
+}
+
+.main-title{
+    color:black;
+    font-size:40px;
+}
+
+/* contenitore testo sx e img */
+.middle-container{
+    display: flex;
+    height:300px;
+}
+
+
+.text-container{
+flex-basis: 50%;
+}
+
+.prova-button{
+    width:30%;
+}
+
+.p{
+line-height: 25px;
+}
+
+.img-container{
+    flex-basis: 50%;
+}
+
+.jumbo-img{
+    height: 300px;
 }
