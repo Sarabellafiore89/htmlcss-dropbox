@@ -9,7 +9,6 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height:70px;
    
 }
 
@@ -147,8 +146,8 @@ li{
 .columns-container{
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
-    padding:30px;
+    padding:80px 80px;
+    width:100%;
 }
 
 .left-column{
@@ -219,7 +218,49 @@ li{
     font-size:12px;
 }
 
+/* sezionte enterprise */
+.container-enterprise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding:40px;
+    /* DEBUG */
+    /* background-color: #00018b; */
+    height:100%;
+ 
+}
+.enterprise{
+    width:60%;
+    position: relative;
+    /* DEBUG */
+    height:100%;
+    /* background-color: #ef82ed; */
+    border:1px solid #d0cfd4;
+}
 
+#team{
+    text-align: center;
+}
+
+h3{
+    padding:10px;
+}
+
+h5{
+    padding:10px;
+}
+#big-button-enterprise{
+    position: absolute;
+    top:20%;
+    right:0%;
+    background-color: #0061fe;
+    padding:5px 15px;
+    color:white;
+    text-align:center;
+    margin:0 20px;
+
+}
 
 
 
