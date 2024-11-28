@@ -313,6 +313,18 @@ h4{
     text-align: center;
 }
 
+/* info */
+.information-container{
+    display: flex;
+    flex-direction: column;
+    padding:60px 30px;
+
+}
+
+#link{
+padding: 20px;
+}
+
 
 
 
