@@ -218,24 +218,20 @@ li{
     font-size:12px;
 }
 
-/* sezionte enterprise */
+/* enterprise */
 .container-enterprise{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding:40px;
-    /* DEBUG */
-    /* background-color: #00018b; */
     height:100%;
  
 }
 .enterprise{
     width:60%;
     position: relative;
-    /* DEBUG */
     height:100%;
-    /* background-color: #ef82ed; */
     border:1px solid #d0cfd4;
 }
 
@@ -261,7 +257,39 @@ h5{
     margin:0 20px;
 
 }
+/* partner */
+.container-partner{
+    display: flex;
+    justify-content: center;
+    padding:40px;
+      
+}
 
+#container-img{ 
+    flex-basis:40%;
+
+}
+
+#container-text{
+    flex-basis:20%;
+    padding:20px;
+
+   
+}
+
+p{
+    padding:10px;
+}
+#img-partner{
+    width:100%
+}
+
+#button-white{
+    color: black;
+    border: 1px solid black;
+    margin:30px;
+    padding:5px;
+}
 
 
 
