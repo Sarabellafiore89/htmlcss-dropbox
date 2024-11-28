@@ -272,9 +272,7 @@ h5{
 
 #container-text{
     flex-basis:20%;
-    padding:20px;
-
-   
+    padding:20px; 
 }
 
 p{
@@ -290,6 +288,32 @@ p{
     margin:30px;
     padding:5px;
 }
+
+/* operazioni */
+.operation-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+.operation-block{
+    width:25%;
+    height:100%;
+     
+} 
+
+.operation-block .block{
+    width:100%;
+}
+
+h4{
+    font-size:30px;
+    padding:60px;
+    text-align: center;
+}
+
+
 
 
 
