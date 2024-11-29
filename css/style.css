@@ -325,6 +325,33 @@ h4{
 padding: 20px;
 }
 
+/* FOOTER */
+.footer-container{
+    display: flex;
+    background-color:black;
+    padding:40px;
+    width: auto;
+}
+.footer-column{
+    flex-basis:15%;
+
+}
+
+.white-link {
+    font-size: 80;
+    color:white;
+ 
+}
+
+.footer-list{
+    flex-direction: column;
+}
+
+.footer-list>li {
+    line-height: 40px;
+    color: white;
+}
+
 
 
 
